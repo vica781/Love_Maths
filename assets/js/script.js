@@ -140,7 +140,7 @@ function displayMultiplyQuestion(operand1, operand2) {
 // Add your division question here
 function displayDivisionQuestion(operand1, operand2) {
     //Generate a random multiple of the second operand
-    let multiple = Math.floor(Math.random() * 10) + 1;
+    let multiple = Math.floor(Math.random() * 15) + 1;
     let divident = operand2 * multiple;
     // Set the operands and operator in the DOM
     document.getElementById("operand1").textContent = divident;
